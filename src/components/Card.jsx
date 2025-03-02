@@ -2,43 +2,43 @@ export default function Card(){
     const image = [
         {
             title : "",
-            image : "./public/drink1.png",
+            image : "img/drink1.png",
         },
         {
             title : "",
-            image : "./public/drink2.png",
+            image : "img/drink2.png",
         },
         {
             title : "",
-            image : "./public/drink3.png",
+            image : "img/drink3.png",
         },
         {
             title : "",
-            image : "./public/drink1.png",
+            image : "img/drink1.png",
         },
         {
             title : "",
-            image : "./public/drink1.png",
+            image : "img/drink1.png",
         },
         {
             title : "",
-            image : "./public/drink1.png",
+            image : "img/drink1.png",
         },
         {
             title : "",
-            image : "./public/drink2.png",
+            image : "img/drink2.png",
         },
         {
             title : "",
-            image : "./public/drink3.png",
+            image : "img/drink3.png",
         },
         {
             title : "",
-            image : "./public/drink1.png",
+            image : "img/drink1.png",
         },
         {
             title : "",
-            image : "./public/drink1.png",
+            image : "img/drink1.png",
         },
     ]
     return(
