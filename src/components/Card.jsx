@@ -44,7 +44,7 @@ export default function Card(){
     return(
         <>
             <div className="contain w-[99%] m-auto ">
-            <div className="all-card flex w-full  flex-wrap">
+            <div className="all-card flex w-full flex-wrap">
                 {image.map((item)=>(
                     <>
                         
