@@ -45,7 +45,7 @@ export default function Navbar(){
                 )}
                 </div>
                     {/* menu for small device                 */}
-                <div className={`absolute xl:hidden top-20 pt-6 left-0 bg-white
+                <div className={`absolute xl:hidden top-20 pt-6 left-0 bg-white z-10
                     w-full flex flex-col items-center gap-6 duration-500 ease-in-out
                      ${is_openmenu ? "opacity-100 translate-y-0":"opacity-0 translate-y-10" }`}>
                     
