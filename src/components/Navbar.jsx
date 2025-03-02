@@ -3,12 +3,12 @@ export default function Navbar(){
     const [is_openmenu, set_is_openmenu] = useState(false)
     return(
         <>
-            <nav className="flex items-center justify-between bg-white shadow-lg p-3">
+            <nav className="flex items-center justify-between bg-white shadow-lg p-3 sticky top-0 z-10">
                 <div className="logo w-[30%] ">
                     <img src="https://cdn.dribbble.com/users/1299339/screenshots/16683906/media/9ea68698c3e30c3b65a33d9b144aab07.gif" alt="logo" width={"80px"}/>
                 </div>
                 {/*  search */}
-                <div className="search w-[30%] hidden xl:flex justify-center "> 
+                <div className="search w-[20%] hidden xl:flex justify-center "> 
                     <div className="relative flex">
                         
                         <div className="search_icon w-[40px] bg-gray-100 flex
@@ -20,7 +20,7 @@ export default function Navbar(){
                         
                     </div>
                 </div>
-                <div className="w-[30%] hidden xl:flex justify-end">
+                <div className="w-[40%] hidden xl:flex justify-end">
                     <ul className="items-center gap-12 xl:flex">
                         <li><a href="" className="cursor-pointer text-2xl text-black">Home</a></li>
                         <li><a href="" className="cursor-pointer text-2xl text-black">About</a></li>
